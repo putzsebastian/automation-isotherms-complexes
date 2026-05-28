@@ -1,0 +1,322 @@
+{
+  "access_key": null,
+  "body": "",
+  "body_html": "",
+  "canread": "{\"base\": 30, \"teams\": [], \"users\": [], \"teamgroups\": []}",
+  "canread_is_immutable": 0,
+  "canwrite": "{\"base\": 20, \"teams\": [], \"users\": [], \"teamgroups\": []}",
+  "canwrite_is_immutable": 0,
+  "category": null,
+  "category_color": null,
+  "category_title": null,
+  "comments": [],
+  "compounds": [],
+  "containers": [],
+  "content_type": 1,
+  "created_at": "2026-05-11 10:57:02",
+  "custom_id": null,
+  "date": "2026-05-11",
+  "elabid": "20260511-0e05af6c616e57883dcc6c0cebe6dfddb0c5dac3",
+  "events_start": null,
+  "events_start_itemid": null,
+  "exclusive_edit_mode": null,
+  "experiments_links": [],
+  "firstname": "Nadjana",
+  "fullname": "Nadjana Schneider",
+  "id": 5481,
+  "is_pinned": 0,
+  "items_links": [],
+  "lastchangeby": 281,
+  "lastname": "Schneider",
+  "locked": 0,
+  "locked_at": null,
+  "lockedby": null,
+  "metadata": "{\"elabftw\": {\"extra_fields_groups\": [{\"id\": 1, \"name\": \"Equilibration\"}, {\"id\": 2, \"name\": \"Filtration\"}, {\"id\": 3, \"name\": \"Isotherm\"}, {\"id\": 4, \"name\": \"Incubation\"}, {\"id\": 5, \"name\": \"Measurement\"}, {\"id\": 6, \"name\": \"Wash\"}]}, \"extra_fields\": {\"Buffer\": {\"type\": \"text\", \"value\": \"Wasser\", \"group_id\": 3, \"position\": 11, \"description\": \"Name and concentration of the binding Buffer, e.g. 20 mM Tris\"}, \"Process ID\": {\"type\": \"text\", \"value\": \"22\", \"group_id\": 2, \"readonly\": true, \"required\": true, \"description\": \"Linked Process ID (do not modify)\"}, \"Pump Speed\": {\"type\": \"number\", \"unit\": \"%\", \"units\": [\"%\"], \"value\": \"50\", \"group_id\": 2, \"description\": \"Percentage of max. pump speed for filtration\"}, \"Replicates\": {\"type\": \"number\", \"unit\": \"\", \"units\": [], \"value\": \"3\", \"group_id\": 3, \"position\": 10, \"description\": \"Number of replicates per tested combination\"}, \"Resin Mass\": {\"type\": \"number\", \"unit\": \"mg\", \"units\": [\"mg\"], \"value\": \"250\", \"group_id\": 3, \"description\": \"Mass of resin in each well\"}, \"Ligand Name\": {\"type\": \"text\", \"value\": \"Cu-L1\", \"group_id\": 3, \"position\": 0, \"description\": \"Name of the ligand\"}, \"Wash Cycles\": {\"type\": \"number\", \"unit\": \"\", \"units\": [], \"value\": \"3\", \"group_id\": 6, \"description\": \"Number of wash cycles\"}, \"Wash Volume\": {\"type\": \"number\", \"unit\": \"\u00b5L\", \"units\": [\"\u00b5L\"], \"value\": \"500\", \"group_id\": 6, \"description\": \"Volume of wash solution per well\"}, \"Total volume\": {\"type\": \"number\", \"unit\": \"\u00b5L\", \"units\": [\"\u00b5L\"], \"value\": \"500\", \"group_id\": 3, \"description\": \"Total volume of sample during incubation\"}, \"Venting time\": {\"type\": \"number\", \"unit\": \"s\", \"units\": [\"s\"], \"value\": \"600\", \"group_id\": 2, \"description\": \"Time to build pressure after filtration before plate can be lifted\"}, \"Pump Duration\": {\"type\": \"number\", \"unit\": \"s\", \"units\": [\"s\"], \"value\": \"60\", \"group_id\": 2, \"description\": \"Vacuum pumping duration for filtration\"}, \"Wash Duration\": {\"type\": \"number\", \"unit\": \"min\", \"units\": [\"min\"], \"value\": \"2\", \"group_id\": 6, \"description\": \"Duration of a wash cycle\"}, \"Incubation Time\": {\"type\": \"number\", \"unit\": \"min\", \"units\": [\"min\"], \"value\": \"1080\", \"group_id\": 4, \"description\": \"Incubation time for binding step\"}, \"Measurement Volume\": {\"type\": \"number\", \"unit\": \"\", \"units\": [], \"value\": \"75\", \"group_id\": 5, \"description\": \"Volume per Well for Measurement\"}, \"Equilibration Cycles\": {\"type\": \"number\", \"unit\": \"\", \"units\": [], \"value\": \"0\", \"group_id\": 1, \"description\": \"Number of equilibration cycles\"}, \"Equilibration Volume\": {\"type\": \"number\", \"unit\": \"\u00b5L\", \"units\": [\"\u00b5L\"], \"value\": \"0\", \"group_id\": 1, \"description\": \"Buffer volume for equilibration per well\"}, \"Ligand concentrations\": {\"type\": \"text\", \"value\": \"20.0; 16.0; 12.0; 8.0; 4.0; 2.0; 1.0; 0.0\", \"group_id\": 3, \"position\": 3, \"description\": \"Specify the desired ligand concentrations exactly, separated by semicolon. E.g., 1.0;1.5;2.0;5.0;10.0\"}, \"Incubation Temperature\": {\"type\": \"number\", \"unit\": \"\u00b0C\", \"units\": [\"\u00b0C\"], \"value\": \"25\", \"group_id\": 4, \"description\": \"Temperature for binding step\"}, \"Measurement Wavelength\": {\"type\": \"number\", \"unit\": \"nm\", \"units\": [\"nm\"], \"value\": \"254\", \"group_id\": 5, \"description\": \"Absorption wavelength for platereader\"}, \"Calibration Curve Slope\": {\"type\": \"number\", \"unit\": \"\", \"units\": [], \"value\": \"4.0033\", \"group_id\": 5}, \"Shaker Speed Incubation\": {\"type\": \"number\", \"unit\": \"RPM\", \"units\": [\"RPM\"], \"value\": \"900\", \"group_id\": 4, \"description\": \"Shaking speed during incubation step (0-2000 RPM)\"}, \"Ligand concentration unit\": {\"type\": \"text\", \"value\": \"mM\", \"group_id\": 3, \"position\": 2}, \"Ligand Stock Concentration\": {\"type\": \"number\", \"unit\": \"\", \"units\": [], \"value\": \"20\", \"group_id\": 3, \"position\": 4, \"description\": \"Stock concentration of ligand. Must be at least 2x the max concentration for binding\"}, \"Calibration Curve Intercept\": {\"type\": \"number\", \"unit\": \"\", \"units\": [], \"value\": \"0\", \"group_id\": 5}, \"Equilibration Cycle Duration\": {\"type\": \"number\", \"unit\": \"min\", \"units\": [\"min\"], \"value\": \"0\", \"group_id\": 1, \"description\": \"Duration per equilibration cycle\"}, \"Number of ligand concentrations\": {\"type\": \"number\", \"unit\": \"\", \"units\": [], \"value\": \"8\", \"group_id\": 3, \"position\": 1, \"description\": \"Number of different ligand concentrations for the isotherm (max. 8)\"}}}",
+  "metadata_decoded": {
+    "elabftw": {
+      "extra_fields_groups": [
+        {
+          "id": 1,
+          "name": "Equilibration"
+        },
+        {
+          "id": 2,
+          "name": "Filtration"
+        },
+        {
+          "id": 3,
+          "name": "Isotherm"
+        },
+        {
+          "id": 4,
+          "name": "Incubation"
+        },
+        {
+          "id": 5,
+          "name": "Measurement"
+        },
+        {
+          "id": 6,
+          "name": "Wash"
+        }
+      ]
+    },
+    "extra_fields": {
+      "Buffer": {
+        "type": "text",
+        "value": "Wasser",
+        "group_id": 3,
+        "position": 11,
+        "description": "Name and concentration of the binding Buffer, e.g. 20 mM Tris"
+      },
+      "Process ID": {
+        "type": "text",
+        "value": "22",
+        "group_id": 2,
+        "readonly": true,
+        "required": true,
+        "description": "Linked Process ID (do not modify)"
+      },
+      "Pump Speed": {
+        "type": "number",
+        "unit": "%",
+        "units": [
+          "%"
+        ],
+        "value": "50",
+        "group_id": 2,
+        "description": "Percentage of max. pump speed for filtration"
+      },
+      "Replicates": {
+        "type": "number",
+        "unit": "",
+        "units": [],
+        "value": "3",
+        "group_id": 3,
+        "position": 10,
+        "description": "Number of replicates per tested combination"
+      },
+      "Resin Mass": {
+        "type": "number",
+        "unit": "mg",
+        "units": [
+          "mg"
+        ],
+        "value": "250",
+        "group_id": 3,
+        "description": "Mass of resin in each well"
+      },
+      "Ligand Name": {
+        "type": "text",
+        "value": "Cu-L1",
+        "group_id": 3,
+        "position": 0,
+        "description": "Name of the ligand"
+      },
+      "Wash Cycles": {
+        "type": "number",
+        "unit": "",
+        "units": [],
+        "value": "3",
+        "group_id": 6,
+        "description": "Number of wash cycles"
+      },
+      "Wash Volume": {
+        "type": "number",
+        "unit": "\u00b5L",
+        "units": [
+          "\u00b5L"
+        ],
+        "value": "500",
+        "group_id": 6,
+        "description": "Volume of wash solution per well"
+      },
+      "Total volume": {
+        "type": "number",
+        "unit": "\u00b5L",
+        "units": [
+          "\u00b5L"
+        ],
+        "value": "500",
+        "group_id": 3,
+        "description": "Total volume of sample during incubation"
+      },
+      "Venting time": {
+        "type": "number",
+        "unit": "s",
+        "units": [
+          "s"
+        ],
+        "value": "600",
+        "group_id": 2,
+        "description": "Time to build pressure after filtration before plate can be lifted"
+      },
+      "Pump Duration": {
+        "type": "number",
+        "unit": "s",
+        "units": [
+          "s"
+        ],
+        "value": "60",
+        "group_id": 2,
+        "description": "Vacuum pumping duration for filtration"
+      },
+      "Wash Duration": {
+        "type": "number",
+        "unit": "min",
+        "units": [
+          "min"
+        ],
+        "value": "2",
+        "group_id": 6,
+        "description": "Duration of a wash cycle"
+      },
+      "Incubation Time": {
+        "type": "number",
+        "unit": "min",
+        "units": [
+          "min"
+        ],
+        "value": "1080",
+        "group_id": 4,
+        "description": "Incubation time for binding step"
+      },
+      "Measurement Volume": {
+        "type": "number",
+        "unit": "",
+        "units": [],
+        "value": "75",
+        "group_id": 5,
+        "description": "Volume per Well for Measurement"
+      },
+      "Equilibration Cycles": {
+        "type": "number",
+        "unit": "",
+        "units": [],
+        "value": "0",
+        "group_id": 1,
+        "description": "Number of equilibration cycles"
+      },
+      "Equilibration Volume": {
+        "type": "number",
+        "unit": "\u00b5L",
+        "units": [
+          "\u00b5L"
+        ],
+        "value": "0",
+        "group_id": 1,
+        "description": "Buffer volume for equilibration per well"
+      },
+      "Ligand concentrations": {
+        "type": "text",
+        "value": "20.0; 16.0; 12.0; 8.0; 4.0; 2.0; 1.0; 0.0",
+        "group_id": 3,
+        "position": 3,
+        "description": "Specify the desired ligand concentrations exactly, separated by semicolon. E.g., 1.0;1.5;2.0;5.0;10.0"
+      },
+      "Incubation Temperature": {
+        "type": "number",
+        "unit": "\u00b0C",
+        "units": [
+          "\u00b0C"
+        ],
+        "value": "25",
+        "group_id": 4,
+        "description": "Temperature for binding step"
+      },
+      "Measurement Wavelength": {
+        "type": "number",
+        "unit": "nm",
+        "units": [
+          "nm"
+        ],
+        "value": "254",
+        "group_id": 5,
+        "description": "Absorption wavelength for platereader"
+      },
+      "Calibration Curve Slope": {
+        "type": "number",
+        "unit": "",
+        "units": [],
+        "value": "4.0033",
+        "group_id": 5
+      },
+      "Shaker Speed Incubation": {
+        "type": "number",
+        "unit": "RPM",
+        "units": [
+          "RPM"
+        ],
+        "value": "900",
+        "group_id": 4,
+        "description": "Shaking speed during incubation step (0-2000 RPM)"
+      },
+      "Ligand concentration unit": {
+        "type": "text",
+        "value": "mM",
+        "group_id": 3,
+        "position": 2
+      },
+      "Ligand Stock Concentration": {
+        "type": "number",
+        "unit": "",
+        "units": [],
+        "value": "20",
+        "group_id": 3,
+        "position": 4,
+        "description": "Stock concentration of ligand. Must be at least 2x the max concentration for binding"
+      },
+      "Calibration Curve Intercept": {
+        "type": "number",
+        "unit": "",
+        "units": [],
+        "value": "0",
+        "group_id": 5
+      },
+      "Equilibration Cycle Duration": {
+        "type": "number",
+        "unit": "min",
+        "units": [
+          "min"
+        ],
+        "value": "0",
+        "group_id": 1,
+        "description": "Duration per equilibration cycle"
+      },
+      "Number of ligand concentrations": {
+        "type": "number",
+        "unit": "",
+        "units": [],
+        "value": "8",
+        "group_id": 3,
+        "position": 1,
+        "description": "Number of different ligand concentrations for the isotherm (max. 8)"
+      }
+    }
+  },
+  "modified_at": "2026-05-11 11:27:17",
+  "next_step": null,
+  "orcid": null,
+  "page": "experiments",
+  "rating": 0,
+  "recent_comment": null,
+  "related_experiments_links": [],
+  "related_items_links": [],
+  "sharelink": "https://ifgselabftw.ifg.kit.edu/experiments.php?mode=view&id=5481",
+  "state": 1,
+  "status": null,
+  "status_color": null,
+  "status_title": null,
+  "steps": [],
+  "tags": null,
+  "tags_id": null,
+  "team": 7,
+  "team_name": "IFG",
+  "timestamped": 0,
+  "timestamped_at": null,
+  "timestampedby": null,
+  "title": "Loading Isotherm with Wash",
+  "type": "experiments",
+  "uploads": [],
+  "userid": 281
+}
