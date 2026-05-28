@@ -1,6 +1,6 @@
 # Automated Isotherm Determination for Copper Catalysts
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/1007716094.svg)](https://doi.org/10.5281/zenodo.15730515)
 
 Experiment template and instance scripts supporting the publication:
 
