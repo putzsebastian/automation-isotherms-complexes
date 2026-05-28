@@ -5,6 +5,7 @@
 Experiment template and instance scripts supporting the publication:
 
 > **When Immobilization Isn’t Covalent: Stable, Non-Leaching Bispidine-Cu on Agarose with Diffusion-Limited Turnover**
+> 
 > Nadjana Schneider, Sebastian Putz, Sebastian Fleer, Stefan Heißler, Eric Gottwald, Jonas Braun,  André Tschöpe, and Katharina Bleher
 
 
