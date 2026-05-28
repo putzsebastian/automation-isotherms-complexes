@@ -23,7 +23,7 @@ It contains two kinds of artifact:
 
 ```
 .
-├── template/         # Reusable experiment template(s)
+├── template/         # Reusable experiment template
 ├── experiment/       # Per-experiment instance scripts (as run for the paper)
 ├── LICENSE
 └── README.md
