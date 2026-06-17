@@ -1,8 +1,8 @@
-# Automated Isotherm Determination for Copper Catalysts
+# When Immobilization is not Covalent: Stable, Reusable Copper-Bispidine Catalysts on Agarose with Diffusion-Limited Turnover
 
 [![DOI](https://zenodo.org/badge/1252191941.svg)](https://doi.org/10.5281/zenodo.20427098)
 
-Experiment template and instance scripts supporting the publication:
+Code and data supporting the work:
 
 > **When Immobilization is not Covalent: Stable, Reusable Copper-Bispidine Catalysts on Agarose with Diffusion-Limited Turnover**
 > 
